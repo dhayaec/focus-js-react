@@ -1,0 +1,1 @@
+console.log(5 >'15' <5) // true
