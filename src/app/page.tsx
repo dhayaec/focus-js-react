@@ -11,9 +11,22 @@ export default function Home() {
       </AuthProvider>
       <MyForm />
       <Parent />
-      <Link className="text-blue-600 visited:text-purple-600" href="/html">
-        Html
-      </Link>
+      <p>
+        <Link
+          className="text-blue-600 visited:text-purple-600"
+          href="/html/flex"
+        >
+          flex
+        </Link>
+      </p>
+      <p>
+        <Link
+          className="text-blue-600 visited:text-purple-600"
+          href="/html/grid"
+        >
+          grid
+        </Link>
+      </p>
     </>
   );
 }
